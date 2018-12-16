@@ -2,4 +2,10 @@ import time
 import datetime
 
 d= datetime.datetime.now()
-print(d)
+
+
+def sqr(x):
+	return x*x
+
+r=sqr(5)
+print(r)
